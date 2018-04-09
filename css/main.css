@@ -1,0 +1,44 @@
+/* layout settings */
+
+
+@import url("fonts.css");
+@import url("layout/normalize.css");
+@import url("layout/base.css");
+
+
+/* blocks */
+
+
+@import url("blocks/header.css");
+@import url("blocks/pagination.css");
+@import url("blocks/footer.css");
+@import url("blocks/dropdown.css");
+@import url("blocks/breadcrumbs.css");
+
+
+
+/* index page */
+
+
+@import url('index/promo.css');
+@import Url('index/features.css');
+@import url('index/last-news.css');
+
+
+/* comments page */
+
+@import url('comments/reviews.css');
+@import url('comments/feedback.css');
+@import url('comments/pattern.css');
+
+
+/* servises page */
+
+@import url('services/offers.css');
+@import url('services/partners.css');
+
+
+/* intro page */
+
+@import url('intro/intro-animate.css');
+@import url('intro/intro.css');

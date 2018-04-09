@@ -1,0 +1,66 @@
+.pegination {
+    text-align: center;
+    font-size: 0px;
+    
+     
+  }
+
+
+.pegination_review {
+    margin-bottom: 55px;
+}
+  
+  .pagination__display,
+  .pagination__controls,
+  .pagination__btn,
+  .pagination__list,
+  .pagination__item {
+    display: inline-block;
+  }
+  .pagination__display {
+    font-size: 14px;
+    letter-spacing: -0.5px;
+  }
+  .pagination__controls {
+    margin-left: 20px;
+  }
+  
+  .pagination__page {
+    display: block;
+    padding: 5px 8px;
+    text-decoration: none;
+    color: #000;
+    transition: .3s;
+    font-size: 14px;
+  }
+  
+  .pagination__page:hover {
+    color: #f89513;
+  }
+  
+  .pagination__page--active .pagination__page {
+    background-color: #27273e;
+    border-radius: 3px;
+    line-height: 1;
+    color: #f89513;
+    
+  }
+  
+  .pagination__btn {
+    height: 10px;
+    width: 6px;
+    background: url('../../img/sprite/spritesheet.png') no-repeat;
+  }
+  
+  .pagination__btn--prev {
+    background-position: -17px -17px;
+      
+  }
+  
+  .pagination__btn--next {
+    background-position: -57px -17px;
+  }
+  
+  .pagination__list {
+    margin: 0 13px;
+  }

@@ -1,0 +1,144 @@
+
+.header {
+    background: #2b2b2b;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    font-weight: bold;
+    min-height: 77px;
+  }
+  
+  
+  .header__left {
+    float: left;
+    width: 32.33%;
+    padding-top: 10px;
+    
+  }
+  
+  .header__center {
+    float: left;
+    width: 39.33%;
+    padding-top: 12px;
+    padding-left: 0px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    
+  }
+  
+  .header__right {
+    text-align: right;
+    float: right;
+    width: 28.33%;
+   
+  }
+  
+  /* =========================NAVIGATION=============================== */
+  
+  .logo__img{
+    vertical-align: bottom;
+  }
+  
+  
+  .main-nav__item {
+    display: inline-block;
+    padding-left: 15px;
+    padding-top: 3px;
+    
+  }
+  
+  .main-nav__link {
+    text-decoration: none;
+    color:#fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-left: 19px;
+    letter-spacing: 1.2px;
+    transition: 0.3s;
+    position: relative;
+    margin-right: 7px;
+    padding-left: 38px;
+        
+  }
+  
+  .main-nav__link::before, 
+  .main-nav__link::after  {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 16px;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    vertical-align: middle;
+    
+    transition: 0.3s;
+    background: url('../../img/sprite/spritesheet.png') no-repeat;
+  }
+  
+  
+
+        
+  .main-nav__link--icon-pulse::after {
+    background-position: -401.1px -16.8px;
+    
+    
+  } 
+  .main-nav__link--icon-star::after {
+    background-position: -137px -17px;
+    height: 18px;
+    margin-top: -2px
+  }
+  .main-nav__link--icon-dumbbell::after {
+    background-position: -635px -17px;
+  } 
+    
+  .main-nav__link--icon-pulse::before {
+    background-position: -454px -16.8px;
+     
+  }
+  
+  .main-nav__link--icon-star::before {
+    background-position: -191px -17px;
+    height: 18px;
+    margin-top: -2px
+  }
+  
+  .main-nav__link--icon-dumbbell::before{
+    background-position: -688px -17px;
+  }
+
+  .main-nav__link:hover::after {
+    opacity: 0;
+  }
+  
+  .main-nav__link:hover {
+    color:  #f89513;
+  }
+  
+
+
+  
+  
+  .contact__phone {
+    color: #fff;
+    font-size: 21px;
+    font-style: normal;
+    text-decoration: none;
+  }
+  
+  .contacts__dropdown {
+    color: #f89513;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    transition: 0.3s;
+    position: relative;
+  }
+  
+  .contacts__dropdown:hover {
+    cursor: pointer;
+    color: #b9b9b9;
+  }
+  
+ 

@@ -1,0 +1,100 @@
+
+ .features {
+    background: #131415;
+    color: #fff;
+    min-height: 570px;
+    padding-top: 48px;
+    margin-bottom: 47px;
+      
+  }
+  
+  
+  .features__list {
+    margin-left: 155px;
+     
+  }
+  
+  .features__item {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 55px;
+     
+  }
+  
+  .feature {
+    width: 210px;
+    text-align: center;
+    
+    
+     
+  }
+  
+  .feature__icon {
+    background: url('../../img/sprite/spritesheet.png')no-repeat  rgb(240, 141, 12);
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: inline-block;
+    
+    
+    
+    
+  }
+  .feature__icon--flower {
+    background-position: -223px 2px;
+   
+  }
+  
+  .feature__icon--star {
+    background-position: -487px 0px;
+   
+  }
+  
+  .feature__icon--palette {
+    background-position: -551px 2px;
+
+  }
+
+
+  
+  .feature__title {
+    font-size: 11px;
+    font-family: 'open_sansbold';
+    padding-top: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+   
+  }
+  
+  .feature__text {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom: 8px;
+    
+  }
+  
+  
+  .feature__list {
+    font-size: 18px;
+     
+  }
+  
+  .feature__item {
+    list-style-position: inside;
+    text-align: left;
+    margin-bottom: 10px;
+    
+  } 
+  
+  .feature__item::before {
+    content: "•";
+    color: rgb(255, 255, 255);
+    margin-right: 25px;
+    padding-left: 5px;
+  }
+  
+  
+ 

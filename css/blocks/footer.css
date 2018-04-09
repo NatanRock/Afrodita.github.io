@@ -1,0 +1,104 @@
+.footer {
+  background: #131415;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'open_sanslight';
+  height: 77px;
+  min-width: 1100px;
+  margin-top: -77px;
+  
+  
+}
+
+.footer__copyright,
+.footer__logo,
+.footer__socials {
+  float: left;
+ 
+}
+.footer__copyright {
+  width: 33.33%;
+  font-size: 14px;
+  line-height: 1.3;
+  padding-right: 85px;
+  padding-top: 10px;
+}
+
+.footer__logo {
+  width: 33.33%;
+  text-align: center;
+  padding-top: 29px;
+}
+
+.footer__socials {
+  width: 33.33%;
+  text-align: right;
+  padding-top: 16px;
+  
+}
+
+.footer__copiright-link {
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+  font-family: 'open_sansbold';
+  
+}
+
+.footer__copiright-name {
+  font-family: 'open_sansbold';
+}
+
+.socials__title {
+  margin-bottom: 8px;
+  font-family: 'open_sansbold';
+}
+
+.socials__list {
+  margin-right: 28px;
+}
+
+.socials__item {
+  display: inline-block;
+  margin-right: 6px;
+  
+  
+ 
+}
+
+.socials__link {
+  background: url('../../img/sprite/spritesheet.png') rgb(212, 212, 216) no-repeat ;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: block;
+  transition: 0.3s;
+  text-align: left;
+}
+
+.socials__link:hover {
+  background-color: rgb(240, 141, 12);
+  transform: scale(1.2);
+}
+
+.socials__link_vk {
+  background-position: -782px -10px;
+
+  
+}
+
+.socials__link_fb {
+  background-position: -90px -13px;
+}
+
+.socials__link_gp {
+  background-position: -302px -11px;
+}
+
+.socials__link_tw {
+  background-position: -736px -11px;
+}
+
+.socials__link_mail {
+  background-position: -350.5px -11px;
+}  
+

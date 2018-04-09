@@ -1,0 +1,26 @@
+.pattern {
+    background: url('../../img/decor/pattern.jpg') ;
+}
+
+.pattern__text {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'open_sanslight';
+    line-height: 1.667;
+    width: 670px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 33px;
+
+
+}
+
+.pattern__text span {
+    font-family: 'open_sansbold';
+    color: orange;
+    font-size: 18px;
+    
+}
+
+
+
